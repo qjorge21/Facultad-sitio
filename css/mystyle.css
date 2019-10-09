@@ -1,0 +1,43 @@
+/*
+1) Qué está haciendo lo siguiente?
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}    
+
+.navbar-default .navbar-nav > .active > a {
+    color: white;
+}  
+
+*/
+
+.fondo {
+    /*background-color: #8B0A02;
+    background-image: url('./portafolio/header-bg.jpg');
+    background-repeat: no-repeat;
+    /*background-attachment: scroll;*/
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.navbar {
+    background-color: #8B0A02;
+}
+.navbar-dark .navbar-text {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link {
+    color:white;
+}
+.navbar-nav > li > a {
+    line-height: 44px;
+}
+.navbar-dark .navbar-nav > li:hover,
+.navbar-dark .navbar-nav > li:focus {
+    background-color: #630600;
+}
+.navbar-dark .navbar-nav > .active > a,
+.navbar-dark .navbar-nav > .active > a:hover,
+.navbar-dark .navbar-nav > .active > a:focus {
+    background-color: #630600;
+}
