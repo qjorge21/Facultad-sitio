@@ -20,16 +20,30 @@
     height: 100vh;
     width: 100%;
 }
+.links {
+    color: white;
+}
+.links:hover {
+    color: #630600;
+}
 .color-fcfmyn:hover {
     color: #630600;
 }
 .color-body {
     background-color: #E3E3DE;
 }
+.separation {
+    border-top: 1px solid white;
+}
 .navbar {
     background-color: #8B0A02;
     font-family: 'Questrial', sans-serif;
     letter-spacing: 2px;
+}
+.footer-web {
+    background-color: #8B0A02;
+    font-family: 'Questrial', sans-serif;
+    color: white;
 }
 .navbar-dark .navbar-text {
     color: white;
