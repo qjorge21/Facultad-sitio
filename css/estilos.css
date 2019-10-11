@@ -25,8 +25,6 @@ Todos los derechos reservados
 }
 
 .imagen-carousel {
-    height: 500px;
-    width: 200px;
     object-fit: cover;
 }
 
@@ -50,4 +48,10 @@ a:link #carousellink {
 .grilla-menu {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 1rem;
+}
+
+@media (max-width: 900px){
+    .carousel-responsive {
+        width:100%;
+    }
 }
